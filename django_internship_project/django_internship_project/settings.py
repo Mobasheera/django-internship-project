@@ -54,7 +54,7 @@ ROOT_URLCONF = 'django_internship_project.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['templates'],  # Directory for templates
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
