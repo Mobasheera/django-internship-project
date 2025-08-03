@@ -1,0 +1,20 @@
+# Django-related files
+*.log
+*.pot
+*.pyc
+__pycache__/
+media/
+
+# Virtual environment
+venv/
+env/
+
+# Database
+db.sqlite3
+
+# OS generated files
+.DS_Store
+.vscode/
+
+# Configuration files
+.env
